@@ -1,0 +1,44 @@
+.protokol {
+    padding: 2em;
+    background-color: #7daaa4;
+    margin-bottom: 30px;
+
+    .title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .description {
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .row>* {
+        margin: 20px auto;
+        width: 50%;
+
+        .card {
+            border-color: #7daaa4;
+            width: 150px;
+            background-color: #7daaa4;
+            margin: auto;
+
+            .image {
+                img {
+                    display: flex;
+                    margin: auto;
+                    width: 75%;
+                    height: 100%;
+                }
+            }
+
+            .title {
+                margin-top: 10px;
+                text-align: center;
+                font-size: 14px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

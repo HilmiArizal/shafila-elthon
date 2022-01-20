@@ -1,0 +1,40 @@
+.home {
+  background-image: url(../../Assets/Images/home.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  .text{
+      font-family: 'Poppins', sans-serif;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 80%;
+      left: 50%;
+      text-align: center;
+      color: #fff;
+      line-height: 1.2;
+      .invitation{
+        font-size: 14px;
+        font-style: italic;
+      }
+      .name{
+        font-family: 'Kaushan Script', cursive;
+          font-size: 48px;
+          font-weight: 500;
+          padding: 0;
+          color: #7daaa4;
+      }
+      .date{
+        margin-top: 15px;
+          font-size: 14px;
+          font-style: italic;
+      }
+  }
+}
+
+@media(max-width:500px){
+  .home{
+      height: 90vh;
+  }
+}

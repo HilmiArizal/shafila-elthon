@@ -1,0 +1,99 @@
+.detail-event {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  .title  {
+    text-align: center;
+    font-family: "Rock Salt", cursive;
+    font-weight: bold;
+    font-size: 42px;
+    -webkit-animation: growIn 2s;
+    animation: growIn 2s;
+  }
+//   .growIn.go{
+//     animation-name: growIn;
+
+//   }
+//   .growIn {
+//     transform: scale(0.2);
+//     opacity: 0;
+//   }
+//   .animated {
+//     animation-duration: 1s;
+//     animation-fill-mode: both;
+//   }
+//   .slower {
+//     animation-duration: 2s;
+//     animation-fill-mode: both;
+//   }
+  .section-detail-event {
+    .akad {
+      margin-top: 50px;
+      text-align: center;
+      .text {
+        font-size: 24px;
+        font-weight: 500;
+      }
+      .date {
+        letter-spacing: 0.5px;
+      }
+      .time {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+      }
+    }
+    .resepsi {
+      margin-top: 25px;
+      text-align: center;
+      .text {
+        font-size: 24px;
+        font-weight: 500;
+      }
+      .sesi {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+      }
+    }
+    .place {
+      margin-top: 25px;
+      text-align: center;
+      .text {
+        font-size: 24px;
+        font-weight: 500;
+      }
+      .address {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+      }
+    }
+    .button {
+      margin-top: 25px;
+      .btn-primary {
+        padding: 5px 15px;
+        cursor: pointer;
+        letter-spacing: 2px;
+        background-color: #7daaa4;
+        border-color: #7daaa4;
+      }
+      // .modal .fade .show{
+      //   height: none;
+      // }
+    }
+  }
+}
+
+@keyframes growIn {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

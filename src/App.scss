@@ -1,0 +1,70 @@
+.app {
+  .section {
+    background-image: url(./Assets/Images/bg-wedding.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: transitionOut 1s;
+    background: linear-gradient(rgba(39, 39, 39, 0.7),
+  );
+  }
+
+  .cover {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(39, 39, 39, 0.7),
+        rgba(39, 39, 39, 0.7),
+      ), url(./Assets/Images/cover.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    animation: transitionIn 1s;
+  }
+
+  .audio {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.54);
+    position: fixed;
+    bottom: 50%;
+    right: 1%;
+    border-radius: 100%;
+    transition: 0.5s ease;
+  }
+
+  .audio:hover {
+    background-color: #7daaa4;
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    // opacity: 0.5;
+    transform: translateY(-300px);
+  }
+
+  to {
+    // opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes transitionOut {
+  from {
+    opacity: 0.5;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media(max-width:500px){
+  .app{
+    .cover{
+      height: 95vh;
+    }
+  }
+}

@@ -1,0 +1,175 @@
+.couple {
+  padding: 2em;
+  min-height: 100vh;
+  .card {
+    padding: 2em 0;
+    background-color: transparent;
+    .image-bismillah {
+      margin: auto;
+      width: 200px;
+      img {
+        width: 100%;
+      }
+    }
+    .text-muqodimah {
+      width: 90%;
+      margin: auto;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      .salam {
+        margin-bottom: 10px;
+      }
+    }
+    .couple-identity {
+      margin: 30px 0;
+      position: relative;
+      .love {
+        height: 60px;
+        width: 60px;
+        font-size: 50px;
+        // background-color: #fff;
+        // border: 1px solid #7daaa4;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+      }
+      .female {
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .text {
+          margin-right: 20px;
+          .name{
+            font-weight: 500;
+          }
+          .as {
+            font-size: 12px;
+            font-style: italic;
+            text-align: end;
+            color: gray;
+          }
+          .son {
+            font-size: 12px;
+            text-align: end;
+            color: gray;
+          }
+        }
+        .image {
+          width: 120px;
+          height: 120px;
+          
+          // border-radius: 100%;
+          // background-color: #968984;
+          img {
+            border: 1px solid #7daaa4;
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+          }
+        }
+      }
+      .male {
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        align-items: center;
+        .text {
+          margin-left: 20px;
+          .name{
+            font-weight: 500;
+          }
+          .as {
+            font-size: 12px;
+            font-style: italic;
+            color: gray;
+          }
+          .son {
+            font-size: 12px;
+            color: gray;
+          }
+        }
+        .image {
+          width: 120px;
+          height: 120px;
+          border-radius: 100%;
+          background-color: #7daaa4;
+          img {
+        border: 1px solid #7daaa4;
+            border-radius: 100%;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+    .flower{
+      .image{
+        width: 100px;
+        margin: auto;
+        img{
+          width: 100%;
+        }
+      }
+      .image-2{
+        width: 80px;
+        padding-top: 10px;
+        margin: auto;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .event{
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      text-align: center;
+      font-size: 20px;
+    }
+    .wish{
+      margin-top: 20px;
+      font-size: 14px;
+      text-align: center;
+    }
+    .time{
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        margin: 0 2px;
+        background-color: #7daaa4;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 100%;
+        span{
+          font-weight: normal;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 800px){
+  .couple{
+    .card{
+      .couple-identity{
+        .love{
+          display: none;
+        }
+      }
+    }
+  }
+}

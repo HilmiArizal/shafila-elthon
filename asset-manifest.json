@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/shafila-elthon/static/css/main.75f7819a.css",
+    "main.js": "/shafila-elthon/static/js/main.4c24c712.js",
+    "static/js/787.117a2b25.chunk.js": "/shafila-elthon/static/js/787.117a2b25.chunk.js",
+    "static/media/nothing-gonna.mp3": "/shafila-elthon/static/media/nothing-gonna.e0fd8f368a0af6595a54.mp3",
+    "static/media/cover.png": "/shafila-elthon/static/media/cover.654a6305d9543d3e2b8d.png",
+    "static/media/home.png": "/shafila-elthon/static/media/home.654a6305d9543d3e2b8d.png",
+    "static/media/bg-wedding.jpeg": "/shafila-elthon/static/media/bg-wedding.81807e314003ec257201.jpeg",
+    "static/media/Hilmi.png": "/shafila-elthon/static/media/Hilmi.1d1a1c400726619fca92.png",
+    "static/media/Lisna.png": "/shafila-elthon/static/media/Lisna.95d47704667959e219e8.png",
+    "static/media/wash.png": "/shafila-elthon/static/media/wash.163684b133c26ec2ccdc.png",
+    "static/media/bismillah.png": "/shafila-elthon/static/media/bismillah.686f82e4d08ed771bb45.png",
+    "static/media/leaf-down.png": "/shafila-elthon/static/media/leaf-down.6d81b6885f2a1b0de0f9.png",
+    "static/media/leaf-up.png": "/shafila-elthon/static/media/leaf-up.c41a0c17343ef097a1f3.png",
+    "static/media/distance.png": "/shafila-elthon/static/media/distance.60c692ce21599c138004.png",
+    "static/media/masker.png": "/shafila-elthon/static/media/masker.3ebaf0ab8a0cebc67d85.png",
+    "static/media/sanitizier.png": "/shafila-elthon/static/media/sanitizier.331c0096c382339f2f37.png",
+    "index.html": "/shafila-elthon/index.html",
+    "main.75f7819a.css.map": "/shafila-elthon/static/css/main.75f7819a.css.map",
+    "main.4c24c712.js.map": "/shafila-elthon/static/js/main.4c24c712.js.map",
+    "787.117a2b25.chunk.js.map": "/shafila-elthon/static/js/787.117a2b25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75f7819a.css",
+    "static/js/main.4c24c712.js"
+  ]
+}

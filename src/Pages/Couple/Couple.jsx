@@ -74,7 +74,7 @@ class Couple extends Component {
           <div className="couple-identity">
             <div className="love">
               <div data-aos="zoom-in">
-                <FaHeart style={{ color: "#7daaa4" }} />
+                <FaHeart style={{ color: "#7D92AA" }} />
               </div>
             </div>
             <div className="row">

@@ -29,7 +29,7 @@ class Event extends Component {
           </div>
           <div className="resepsi" data-aos="zoom-out-right">
             <div className="text">RESEPSI</div>
-            <div className="date">6 FEBRUARY 2021</div>
+            <div className="date">6 FEBRUARY 2022</div>
             <div className="sesi">
               <div>SESI 1 : 11.00 - 13.00</div>
               <div>SESI 2 : 13.00 - 15.00</div>
@@ -39,8 +39,9 @@ class Event extends Component {
             <div data-aos="zoom-in">
               <div className="text">GEDUNG BADAN DIKLAT KAB. SUKABUMI</div>
               <div className="address">
-                Jl. Raya Kadupugur No.KM 10,4, Lembursawah, Kec. Cicantayan,
-                Kabupaten Sukabumi, Jawa Barat 43155
+                Gedung BKPSDM Kab.Sukabumi ( Jl. Raya Kadupugur No.KM 10,4,
+                Lembursawah, Kec. Cicantayan, Kabupaten Sukabumi, Jawa Barat
+                43155)
               </div>
             </div>
             <div className="button">
@@ -74,7 +75,7 @@ class Event extends Component {
                     <div className="modal-body">
                       <iframe
                         title="maps"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15843.602119309096!2d106.8436239!3d-6.9024979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xafad0f9e5677871d!2sBadan%20Pendidikan%20Dan%20Pelatihan%20Kabupaten%20Sukabumi!5e0!3m2!1sid!2sid!4v1642031758721!5m2!1sid!2sid"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9000578668515!2d106.84096511477286!3d-6.902554295012432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6836e84b31bb35%3A0xc5ac990d42b9415a!2sBKPSDM%20Kab.%20Sukabumi!5e0!3m2!1sid!2sid!4v1643029628351!5m2!1sid!2sid"
                         width="100%"
                         height="300"
                         loading="lazy"
@@ -92,4 +93,3 @@ class Event extends Component {
 }
 
 export default Event;
-

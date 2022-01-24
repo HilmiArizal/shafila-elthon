@@ -185,11 +185,8 @@ class Reservation extends Component {
                   <option selected hidden>
                     Silahkan pilih sesi
                   </option>
-                  <option value="1" disabled>
-                    Sesi 1 pukul 11:00 - 12:00 (Full)
-                  </option>
-                  <option value="2">Sesi 2 pukul 12:00 - 13:00</option>
-                  <option value="3">Sesi 3 pukul 13:00 - 14:00</option>
+                  <option value="1">Sesi 1 pukul 11:00 - 13:00</option>
+                  <option value="2">Sesi 2 pukul 13:00 - 15:00</option>
                 </select>
               </div>
             ) : (

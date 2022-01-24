@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shafila-elthon/static/css/main.8cda380b.css",
-    "main.js": "/shafila-elthon/static/js/main.7ce8343c.js",
+    "main.css": "/shafila-elthon/static/css/main.65d76dd0.css",
+    "main.js": "/shafila-elthon/static/js/main.c8345b53.js",
     "static/js/787.117a2b25.chunk.js": "/shafila-elthon/static/js/787.117a2b25.chunk.js",
     "static/media/nothing-gonna.mp3": "/shafila-elthon/static/media/nothing-gonna.e0fd8f368a0af6595a54.mp3",
     "static/media/Lisna.png": "/shafila-elthon/static/media/Lisna.99a06191bd8afb85f957.png",
@@ -17,12 +17,12 @@
     "static/media/masker.png": "/shafila-elthon/static/media/masker.3ebaf0ab8a0cebc67d85.png",
     "static/media/sanitizier.png": "/shafila-elthon/static/media/sanitizier.331c0096c382339f2f37.png",
     "index.html": "/shafila-elthon/index.html",
-    "main.8cda380b.css.map": "/shafila-elthon/static/css/main.8cda380b.css.map",
-    "main.7ce8343c.js.map": "/shafila-elthon/static/js/main.7ce8343c.js.map",
+    "main.65d76dd0.css.map": "/shafila-elthon/static/css/main.65d76dd0.css.map",
+    "main.c8345b53.js.map": "/shafila-elthon/static/js/main.c8345b53.js.map",
     "787.117a2b25.chunk.js.map": "/shafila-elthon/static/js/787.117a2b25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cda380b.css",
-    "static/js/main.7ce8343c.js"
+    "static/css/main.65d76dd0.css",
+    "static/js/main.c8345b53.js"
   ]
 }

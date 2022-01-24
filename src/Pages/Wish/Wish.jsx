@@ -11,7 +11,10 @@ class Wish extends Component {
     this.state = {
       dataReservation: [],
       index: 0,
+      currentPage: 1,
+      perPage: 5,
     };
+    this.handleClick = this.handleClick.bind(this);
   }
 
   componentDidMount() {
@@ -27,52 +30,55 @@ class Wish extends Component {
       });
   }
 
-  onPrevious = () => {
-    if (this.state.index - 1 >= 0) {
-      this.setState({ index: this.state.index - 1 });
-    }
-  };
-
-  onNext = () => {
-    if (this.state.index + 1 <= this.state.dataReservation.length - 1) {
-      this.setState({ index: this.state.index + 1 });
-    }
-  };
+  handleClick(event) {
+    this.setState({
+      currentPage: Number(event.target.id),
+    });
+  }
 
   render() {
+    const { dataReservation, currentPage, perPage } = this.state;
+
+    // Logic for displaying todos
+    const indexOfLastTodo = currentPage * perPage;
+    const indexOfFirstTodo = indexOfLastTodo - perPage;
+    const currentDataReservation = dataReservation.slice(
+      indexOfFirstTodo,
+      indexOfLastTodo
+    );
+
+    const renderDataReservation = currentDataReservation.map((item, index) => {
+      return (
+        <li key={index}>
+          <div className="name">{item.name} <span>{item.reservation}</span></div>
+          <div className="wish">{item.wish}</div>
+        </li>
+      );
+    });
+
+    // Logic for displaying page numbers
+    const pageNumbers = [];
+    for (let i = 1; i <= Math.ceil(dataReservation.length / perPage); i++) {
+      pageNumbers.push(i);
+    }
+
+    const renderPageNumbers = pageNumbers.map((number) => {
+      return (
+        <li key={number} id={number} onClick={this.handleClick}>
+          {number}
+        </li>
+      );
+    });
+
     return (
       <div className="wish-pray">
         <div className="title" data-aos="zoom-in">
           Ucapan &amp; Do'a
         </div>
         <div className="wish-card">
-          <div className="icon-left" onClick={this.onPrevious}>
-            {/* <GrPrevious /> */}
-            <button className="btn btn-primary">Prev</button>
-          </div>
-          <div className="icon-right" onClick={this.onNext}>
-            {/* <GrNext /> */}
-            <button className="btn btn-primary">Next</button>
-          </div>
           <div className="content">
-            {this.state.dataReservation.map((item, index) => {
-              let position =
-                index > this.state.index
-                  ? "nextCard"
-                  : index === this.state.index
-                  ? "activeCard"
-                  : "prevCard";
-              return (
-                <div className={position} key={index}>
-                  <div className="friend-name">
-                    {this.state.index === index ? item.name : ""}
-                  </div>
-                  <div className="friend-wish">
-                    {this.state.index === index ? item.wish : ""}
-                  </div>
-                </div>
-              );
-            })}
+            <ul className="list-data">{renderDataReservation}</ul>
+            <ul className="page-numbers">{renderPageNumbers}</ul>
           </div>
         </div>
         <div className="couple-forever">
@@ -101,9 +107,7 @@ class Wish extends Component {
             className="thankyou"
             data-aos="zoom-in-up"
             data-aos-duration="3000"
-          >
-            
-          </div>
+          ></div>
           <div className="product">
             &copy; 2021 Invitation by{" "}
             <a

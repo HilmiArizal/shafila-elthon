@@ -84,7 +84,7 @@ class Couple extends Component {
                     <div className="name">Shafila Darajatin Sartika</div>
                     <div className="as">Putri Tercinta</div>
                     <div className="son">
-                      <div className="father">Bapak Aa. Hasan Siregar</div>
+                      <div className="father">Bapak Aa. Hasan</div>
                       <div className="mother">Ibu Tini Supartini</div>
                     </div>
                   </div>

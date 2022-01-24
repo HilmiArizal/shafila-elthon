@@ -99,9 +99,9 @@ class Wish extends Component {
               </div>
             </div>
           </div>
-          <div className="hashtag" data-aos="zoom-in">
+          {/* <div className="hashtag" data-aos="zoom-in">
             #ShaTonStory
-          </div>
+          </div> */}
 
           <div
             className="thankyou"
@@ -109,7 +109,7 @@ class Wish extends Component {
             data-aos-duration="3000"
           ></div>
           <div className="product">
-            &copy; 2021 Invitation by{" "}
+            &copy; 2022 Invitation by{" "}
             <a
               href="https://hilmiarizal.github.io/Portfolio/"
               target="_blank"

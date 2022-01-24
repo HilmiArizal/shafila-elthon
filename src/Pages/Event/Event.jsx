@@ -37,7 +37,7 @@ class Event extends Component {
           </div>
           <div className="place">
             <div data-aos="zoom-in">
-              <div className="text">GEDUNG BADAN DIKLAT KAB. SUKABUMI</div>
+              <div className="text">GEDUNG BKPSDM KAB. SUKABUMI</div>
               <div className="address">
                 Gedung BKPSDM Kab.Sukabumi ( Jl. Raya Kadupugur No.KM 10,4,
                 Lembursawah, Kec. Cicantayan, Kabupaten Sukabumi, Jawa Barat

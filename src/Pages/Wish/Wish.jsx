@@ -12,7 +12,7 @@ class Wish extends Component {
       dataReservation: [],
       index: 0,
       currentPage: 1,
-      perPage: 5,
+      perPage: 15,
     };
     this.handleClick = this.handleClick.bind(this);
   }
